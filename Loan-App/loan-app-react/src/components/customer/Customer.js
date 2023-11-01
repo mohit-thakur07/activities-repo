@@ -48,7 +48,7 @@ export function CustomerRegistration() {
         navigate("/login");
     }
 
-    return (<div>
+    return (<div className="container">
         <h3>Registration Form</h3><hr />
         <form onSubmit={handleSubmit}>
             <div>
